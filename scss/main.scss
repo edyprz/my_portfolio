@@ -10,7 +10,10 @@ body{
     @include background;
     background: $primary-color;
     color: set-text-color($primary-color);
-    height: 100%;
+    top:0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
     margin: 0;
     line-height: 1.5;
     display: grid;
@@ -48,7 +51,7 @@ header{
 }
 
 main{
-    padding: 4rem;
+    padding: 2.5rem;
 
     .icons{
         margin-top: 1rem;
@@ -185,5 +188,6 @@ main{
     background: lighten($primary-color,50);
     color: #333;
 }
+
 
 @import 'mobile';
